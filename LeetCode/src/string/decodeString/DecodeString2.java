@@ -2,7 +2,7 @@ package string.decodeString;
 
 import java.util.Stack;
 
-public class DecodeString {
+public class DecodeString2 {
 
 	public static String decodeString(String s) {
 
