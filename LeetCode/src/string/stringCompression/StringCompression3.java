@@ -22,16 +22,12 @@ public class StringCompression3 {
 			}
 		}
 		System.out.println(chars);
-
 		return newIndex;
-
 	}
 
 	public static void main(String[] args) {
-//		char[] arr = { 'a', 'a', 'b', 'b', 'c', 'c', 'c' };
-
-		char[] arr = { 'a','b','c'};
-
+		char[] arr = { 'a', 'a', 'b', 'b', 'c', 'c', 'c' };
+//		char[] arr = { 'a','b','c'};
 //		char[] arr = { 'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'x' };
 
 		System.out.println(compress(arr));
